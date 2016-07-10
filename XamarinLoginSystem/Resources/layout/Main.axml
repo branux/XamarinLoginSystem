@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/background_light"
+    android:weightSum="100"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <TextView
+        android:text="Create An Account"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_weight="20"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:textColor="#368DEB"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:id="@+id/txtCreateAccount" />
+    <Button
+        android:text="SIGN IN"
+        android:layout_width="match_parent"
+        android:layout_weight="15"
+        android:layout_height="0dp"
+        android:background="@drawable/ButtonSignInStyle"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="15sp"
+        android:id="@+id/btnSignIn" />
+    <TextView
+        android:text="Or"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="15"
+        android:gravity="center"
+        android:textColor="#368DEB"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:id="@+id/txtOr" />
+    <Button
+        android:text="SIGN UP WITH EMAIL"
+        android:layout_width="match_parent"
+        android:layout_weight="15"
+        android:layout_height="0dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="15sp"
+        android:id="@+id/btnSignUp" />
+<!--Reletive Layout = Goreceli Duzen-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="35">
+    <!--Progress Bar = Ilerleme Cubugu // indeterminate = Belirsizlik dogru-->
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/progressBar"
+            android:layout_centerInParent="true"
+            android:indeterminate="true" />
+    </RelativeLayout>
+</LinearLayout>
