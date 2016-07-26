@@ -43,10 +43,12 @@
         android:layout_width="match_parent"
         android:layout_weight="15"
         android:layout_height="0dp"
+        android:background="@drawable/ButtonSignUpStyle"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:textSize="15sp"
-        android:id="@+id/btnSignUp" />
+        android:id="@+id/btnSignUp"
+        android:drawableLeft="@drawable/e_mail" />
 <!--Reletive Layout = Goreceli Duzen-->
     <RelativeLayout
         android:layout_width="match_parent"
@@ -57,7 +59,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/progressBar"
+            android:background="@drawable/ProgressBarStyle"
             android:layout_centerInParent="true"
-            android:indeterminate="true" />
+            android:indeterminate="true"
+            android:visibility="invisible"/>
     </RelativeLayout>
 </LinearLayout>
