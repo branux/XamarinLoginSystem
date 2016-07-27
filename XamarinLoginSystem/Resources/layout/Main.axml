@@ -49,12 +49,10 @@
         android:textSize="15sp"
         android:id="@+id/btnSignUp"
         android:drawableLeft="@drawable/e_mail" />
-<!--Reletive Layout = Goreceli Duzen-->
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="35">
-    <!--Progress Bar = Ilerleme Cubugu // indeterminate = Belirsizlik dogru-->
         <ProgressBar
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
